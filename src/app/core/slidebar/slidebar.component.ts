@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {  } from "module";
 
 @Component({
   selector: 'app-slidebar',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slidebar.component.scss']
 })
 export class SlidebarComponent implements OnInit {
+
+  today = 'day';
 
   constructor() { }
 
